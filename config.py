@@ -21,11 +21,11 @@ class Config(object):
                                            ['img', 'jpeg', 'jpg', 'png'])
     CONTENT_TYPE = _get_config_value('CONTENT_TYPE',
                                      ['image/jpeg', 'image/jpg', 'image/png'])
-    SECRET_KEY = _get_config_value('SECRET_KEY',
-                                   'b594481f-f3b2-49d0-9fc6-29c1d0859d2e')
-    SQLALCHEMY_DATABASE_URI = _get_config_value(
-        'SQLALCHEMY_DATABASE_URI',
-        'mysql://dt_admin:dt_admin@localhost/avatar')
+    #SECRET_KEY = _get_config_value('SECRET_KEY',
+                                   #'b594481f-f3b2-49d0-9fc6-29c1d0859d2e')
+    #SQLALCHEMY_DATABASE_URI = _get_config_value(
+        #'SQLALCHEMY_DATABASE_URI',
+        #'mysql://dt_admin:dt_admin@localhost/avatar')
 
 
 class DevelopmentConfig(Config):
